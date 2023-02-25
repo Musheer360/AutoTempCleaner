@@ -4,7 +4,7 @@ print("\n    + -------------------------------- +")
 print("    |      AUTO TEMP FILE CLEANER      |")
 print("    + -------------------------------- +\n")
 
-dirs_to_clean = ["C:\\Windows\\Temp", "C:\\Users\\Musheer\\AppData\\Local\\Temp"]
+dirs_to_clean = ["C:\\Windows\\Temp", "C:\\Users\\YourUsername\\AppData\\Local\\Temp"]
 
 for directory in dirs_to_clean:
     for file_name in os.listdir(directory):
